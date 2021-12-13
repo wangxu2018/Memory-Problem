@@ -1,3 +1,5 @@
+// gcc code.c -o code -D_GNU_SOURCE 
+// cannot find O_DIRECT 可在编译时加入-D_GNU_SOURCE参数或者加入宏#define _GNU_SOURCE
 #define _GNU_SOURCE
 
 #include <stdio.h>
